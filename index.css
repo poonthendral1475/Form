@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;;
+}
+#container{
+    width:300px;
+    border:2px solid black;
+    padding:10px;
+    border-radius: 20px;
+    background-color: bisque;
+}
+
+#container .group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+input{
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#container #button{
+    display: flex;
+    justify-content: center;
+}
+#btn{
+    margin-top: 30px;
+    border: 2px solid;
+    padding: 5px;
+    width: 100px;
+}
+span{
+    color: red;
+    font-size: small;
+    position: relative;
+    left:10px   
+}
+.design{
+    color: red;
+    input{
+        border-color: red;
+    }
+}
+
+
